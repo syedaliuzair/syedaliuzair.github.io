@@ -41,7 +41,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n\n<nav class=\"navbar navbar-expand-lg navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\"\n        aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\n        <ul class=\"navbar-nav\">\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['features']\">Features</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['pricing']\">Pricing</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['posts']\">Posts</a>\n            </li>\n            <!-- <li class=\"nav-item dropdown\">\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n            Dropdown link\n          </a>\n          <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n            <a class=\"dropdown-item\" href=\"#\">Action</a>\n            <a class=\"dropdown-item\" href=\"#\">Another action</a>\n            <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n          </div>\n        </li> -->\n        </ul>\n    </div>\n</nav>\n\n<div class=\"jumbotron\">\n    <h1 class=\"display-4\" style=\"color : blue;\">Hello, world!</h1>\n    <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to\n        featured content or information.</p>\n    <hr class=\"my-4\">\n    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>\n</div>\n\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-8\">\n            <router-outlet></router-outlet>\n        </div>\n        <div class=\"col-md-4\">\n            <app-sidebar></app-sidebar>\n        </div>\n    </div>\n</div>\n\n<div class=\"container-fluid \">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <nav aria-label=\"Page navigation example \">\n                <ul class=\"pagination \">\n                    <li class=\"page-item\">\n                        <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">\n                            <span aria-hidden=\"true\">&laquo;</span>\n                            <span class=\"sr-only\">Previous</span>\n                        </a>\n                    </li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>\n                    <li class=\"page-item\">\n                        <a class=\"page-link\" href=\"#\" aria-label=\"Next\">\n                            <span aria-hidden=\"true\">&raquo;</span>\n                            <span class=\"sr-only\">Next</span>\n                        </a>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </div>\n</div>"
+module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n\n\n<nav class=\"navbar navbar-expand-lg navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">Navbar</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNavDropdown\" aria-controls=\"navbarNavDropdown\"\n        aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarNavDropdown\">\n        <ul class=\"navbar-nav\">\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['features']\">Features</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['pricing']\">Pricing</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['posts']\">Posts</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link\" [routerLink]=\"['login']\">login</a>\n            </li>\n            <!-- <li class=\"nav-item dropdown\">\n          <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdownMenuLink\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n            Dropdown link\n          </a>\n          <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdownMenuLink\">\n            <a class=\"dropdown-item\" href=\"#\">Action</a>\n            <a class=\"dropdown-item\" href=\"#\">Another action</a>\n            <a class=\"dropdown-item\" href=\"#\">Something else here</a>\n          </div>\n        </li> -->\n        </ul>\n    </div>\n</nav>\n\n<div class=\"jumbotron\">\n    <h1 class=\"display-4\" style=\"color : blue;\">Hello, world!</h1>\n    <p class=\"lead\">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to\n        featured content or information.</p>\n    <hr class=\"my-4\">\n    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>\n    <a class=\"btn btn-primary btn-lg\" href=\"#\" role=\"button\">Learn more</a>\n</div>\n\n<div class=\"container\">\n    <div class=\"row\">\n        <div class=\"col-md-8\">\n            <router-outlet></router-outlet>\n        </div>\n        <div class=\"col-md-4\">\n            <app-sidebar></app-sidebar>\n        </div>\n    </div>\n</div>\n\n<div class=\"container-fluid \">\n    <div class=\"row\">\n        <div class=\"col-md-12\">\n            <nav aria-label=\"Page navigation example \">\n                <ul class=\"pagination \">\n                    <li class=\"page-item\">\n                        <a class=\"page-link\" href=\"#\" aria-label=\"Previous\">\n                            <span aria-hidden=\"true\">&laquo;</span>\n                            <span class=\"sr-only\">Previous</span>\n                        </a>\n                    </li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">2</a></li>\n                    <li class=\"page-item\"><a class=\"page-link\" href=\"#\">3</a></li>\n                    <li class=\"page-item\">\n                        <a class=\"page-link\" href=\"#\" aria-label=\"Next\">\n                            <span aria-hidden=\"true\">&raquo;</span>\n                            <span class=\"sr-only\">Next</span>\n                        </a>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </div>\n</div>"
 
 /***/ }),
 
@@ -101,6 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./sidebar/sidebar.component */ "./src/app/sidebar/sidebar.component.ts");
 /* harmony import */ var _posts_posts_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./posts/posts.component */ "./src/app/posts/posts.component.ts");
 /* harmony import */ var _post_post_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./post/post.component */ "./src/app/post/post.component.ts");
+/* harmony import */ var _login_login_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./login/login.component */ "./src/app/login/login.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -117,11 +118,13 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
+
 var routes = [
     { path: '', redirectTo: 'features', pathMatch: 'full' },
     { path: "features", component: _features_features_component__WEBPACK_IMPORTED_MODULE_5__["FeaturesComponent"] },
     { path: "pricing", component: _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_6__["PricingComponent"] },
     { path: "posts", component: _posts_posts_component__WEBPACK_IMPORTED_MODULE_8__["PostsComponent"] },
+    { path: "login", component: _login_login_component__WEBPACK_IMPORTED_MODULE_10__["LoginComponent"] },
     { path: "posts/:id", component: _post_post_component__WEBPACK_IMPORTED_MODULE_9__["PostComponent"] },
     { path: '**', redirectTo: 'features' }
 ];
@@ -142,7 +145,8 @@ var AppModule = /** @class */ (function () {
                 _pricing_pricing_component__WEBPACK_IMPORTED_MODULE_6__["PricingComponent"],
                 _sidebar_sidebar_component__WEBPACK_IMPORTED_MODULE_7__["SidebarComponent"],
                 _posts_posts_component__WEBPACK_IMPORTED_MODULE_8__["PostsComponent"],
-                _post_post_component__WEBPACK_IMPORTED_MODULE_9__["PostComponent"]
+                _post_post_component__WEBPACK_IMPORTED_MODULE_9__["PostComponent"],
+                _login_login_component__WEBPACK_IMPORTED_MODULE_10__["LoginComponent"]
             ],
             providers: [],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
@@ -212,6 +216,64 @@ var FeaturesComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], FeaturesComponent);
     return FeaturesComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/login/login.component.css":
+/*!*******************************************!*\
+  !*** ./src/app/login/login.component.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/login/login.component.html":
+/*!********************************************!*\
+  !*** ./src/app/login/login.component.html ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<form class=\"needs-validation\" novalidate>\r\n        <div class=\"form-row\">\r\n          <div class=\"col-md-4 mb-3\">\r\n            <label for=\"validationCustom01\">First name</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"validationCustom01\" placeholder=\"First name\" value=\"Mark\" required>\r\n            <div class=\"valid-feedback\">\r\n              Looks good!\r\n            </div>\r\n          </div>\r\n          <div class=\"col-md-4 mb-3\">\r\n            <label for=\"validationCustom02\">Last name</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"validationCustom02\" placeholder=\"Last name\" value=\"Otto\" required>\r\n            <div class=\"valid-feedback\">\r\n              Looks good!\r\n            </div>\r\n          </div>\r\n          <div class=\"col-md-4 mb-3\">\r\n            <label for=\"validationCustomUsername\">Username</label>\r\n            <div class=\"input-group\">\r\n              <div class=\"input-group-prepend\">\r\n                <span class=\"input-group-text\" id=\"inputGroupPrepend\">@</span>\r\n              </div>\r\n              <input type=\"text\" class=\"form-control\" id=\"validationCustomUsername\" placeholder=\"Username\" aria-describedby=\"inputGroupPrepend\" required>\r\n              <div class=\"invalid-feedback\">\r\n                Please choose a username.\r\n              </div>\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-row\">\r\n          <div class=\"col-md-6 mb-3\">\r\n            <label for=\"validationCustom03\">City</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"validationCustom03\" placeholder=\"City\" required>\r\n            <div class=\"invalid-feedback\">\r\n              Please provide a valid city.\r\n            </div>\r\n          </div>\r\n          <div class=\"col-md-3 mb-3\">\r\n            <label for=\"validationCustom04\">State</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"validationCustom04\" placeholder=\"State\" required>\r\n            <div class=\"invalid-feedback\">\r\n              Please provide a valid state.\r\n            </div>\r\n          </div>\r\n          <div class=\"col-md-3 mb-3\">\r\n            <label for=\"validationCustom05\">Zip</label>\r\n            <input type=\"text\" class=\"form-control\" id=\"validationCustom05\" placeholder=\"Zip\" required>\r\n            <div class=\"invalid-feedback\">\r\n              Please provide a valid zip.\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <div class=\"form-group\">\r\n          <div class=\"form-check\">\r\n            <input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"invalidCheck\" required>\r\n            <label class=\"form-check-label\" for=\"invalidCheck\">\r\n              Agree to terms and conditions\r\n            </label>\r\n            <div class=\"invalid-feedback\">\r\n              You must agree before submitting.\r\n            </div>\r\n          </div>\r\n        </div>\r\n        <button class=\"btn btn-primary\" type=\"submit\">Submit form</button>\r\n      </form>\r\n      \r\n      <script>\r\n      // Example starter JavaScript for disabling form submissions if there are invalid fields\r\n      (function() {\r\n        'use strict';\r\n        window.addEventListener('load', function() {\r\n          // Fetch all the forms we want to apply custom Bootstrap validation styles to\r\n          var forms = document.getElementsByClassName('needs-validation');\r\n          // Loop over them and prevent submission\r\n          var validation = Array.prototype.filter.call(forms, function(form) {\r\n            form.addEventListener('submit', function(event) {\r\n              if (form.checkValidity() === false) {\r\n                event.preventDefault();\r\n                event.stopPropagation();\r\n              }\r\n              form.classList.add('was-validated');\r\n            }, false);\r\n          });\r\n        }, false);\r\n      })();\r\n      </script>"
+
+/***/ }),
+
+/***/ "./src/app/login/login.component.ts":
+/*!******************************************!*\
+  !*** ./src/app/login/login.component.ts ***!
+  \******************************************/
+/*! exports provided: LoginComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginComponent", function() { return LoginComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var LoginComponent = /** @class */ (function () {
+    function LoginComponent() {
+        this.title = 'Login Webpage';
+    }
+    LoginComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-login',
+            template: __webpack_require__(/*! ./login.component.html */ "./src/app/login/login.component.html"),
+            styles: [__webpack_require__(/*! ./login.component.css */ "./src/app/login/login.component.css")]
+        })
+    ], LoginComponent);
+    return LoginComponent;
 }());
 
 
